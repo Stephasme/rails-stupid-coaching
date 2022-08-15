@@ -1,0 +1,163 @@
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib pkg-config --exists sqlite3
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib pkg-config --libs sqlite3 |
+=> "-L/opt/homebrew/Cellar/sqlite/3.39.2/lib -lsqlite3\n"
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib "clang -o conftest -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/x86_64-darwin21 -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0 -I. -I/Users/stephanelorio/.rbenv/versions/3.1.2/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -Wno-error=implicit-function-declaration  -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe conftest.c  -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib  -fstack-protector-strong     -lruby.3.1   "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib "clang -o conftest -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/x86_64-darwin21 -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0 -I. -I/Users/stephanelorio/.rbenv/versions/3.1.2/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -Wno-error=implicit-function-declaration  -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe conftest.c  -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib  -fstack-protector-strong     -lruby.3.1 -L/opt/homebrew/Cellar/sqlite/3.39.2/lib -lsqlite3  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring file /opt/homebrew/Cellar/sqlite/3.39.2/lib/libsqlite3.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib pkg-config --cflags-only-I sqlite3 |
+=> "-I/opt/homebrew/Cellar/sqlite/3.39.2/include\n"
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib pkg-config --cflags-only-other sqlite3 |
+=> "\n"
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib pkg-config --libs-only-l sqlite3 |
+=> "-lsqlite3\n"
+package configuration for sqlite3
+incflags: -I/opt/homebrew/Cellar/sqlite/3.39.2/include
+cflags: 
+ldflags: -L/opt/homebrew/Cellar/sqlite/3.39.2/lib
+libs: -lsqlite3
+
+find_header: checking for sqlite3.h... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib "clang -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/x86_64-darwin21 -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0 -I. -I/opt/homebrew/Cellar/sqlite/3.39.2/include -I/Users/stephanelorio/.rbenv/versions/3.1.2/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -Wno-error=implicit-function-declaration  -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe    -c conftest.c"
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <sqlite3.h>
+/* end */
+
+--------------------
+
+find_library: checking for pthread_create() in -lpthread... -------------------- yes
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib "clang -o conftest -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/x86_64-darwin21 -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0 -I. -I/opt/homebrew/Cellar/sqlite/3.39.2/include -I/Users/stephanelorio/.rbenv/versions/3.1.2/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -Wno-error=implicit-function-declaration  -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe  conftest.c  -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib  -fstack-protector-strong -L/opt/homebrew/Cellar/sqlite/3.39.2/lib     -lsqlite3 -lruby.3.1 -lpthread  -lsqlite3  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+conftest.c:14:57: error: use of undeclared identifier 'pthread_create'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))pthread_create; return !p; }
+                                                        ^
+1 warning and 1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))pthread_create; return !p; }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib "clang -o conftest -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/x86_64-darwin21 -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0 -I. -I/opt/homebrew/Cellar/sqlite/3.39.2/include -I/Users/stephanelorio/.rbenv/versions/3.1.2/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -Wno-error=implicit-function-declaration  -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe  conftest.c  -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib  -fstack-protector-strong -L/opt/homebrew/Cellar/sqlite/3.39.2/lib     -lsqlite3 -lruby.3.1 -lpthread  -lsqlite3  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring file /opt/homebrew/Cellar/sqlite/3.39.2/lib/libsqlite3.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void pthread_create();
+15: int t(void) { pthread_create(); return 0; }
+/* end */
+
+--------------------
+
+find_library: checking for sqlite3_libversion_number() in -lsqlite3... -------------------- no
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib "clang -o conftest -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/x86_64-darwin21 -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0 -I. -I/opt/homebrew/Cellar/sqlite/3.39.2/include -I/Users/stephanelorio/.rbenv/versions/3.1.2/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -Wno-error=implicit-function-declaration  -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe  conftest.c  -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib  -fstack-protector-strong -L/opt/homebrew/Cellar/sqlite/3.39.2/lib    -lpthread  -lsqlite3 -lruby.3.1 -lsqlite3 -lpthread  -lsqlite3  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+conftest.c:14:57: error: use of undeclared identifier 'sqlite3_libversion_number'
+int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_libversion_number; return !p; }
+                                                        ^
+1 warning and 1 error generated.
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: int t(void) { void ((*volatile p)()); p = (void ((*)()))sqlite3_libversion_number; return !p; }
+/* end */
+
+DYLD_FALLBACK_LIBRARY_PATH=.:/Users/stephanelorio/.rbenv/versions/3.1.2/lib "clang -o conftest -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/x86_64-darwin21 -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0/ruby/backward -I/Users/stephanelorio/.rbenv/versions/3.1.2/include/ruby-3.1.0 -I. -I/opt/homebrew/Cellar/sqlite/3.39.2/include -I/Users/stephanelorio/.rbenv/versions/3.1.2/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT   -Wno-error=implicit-function-declaration  -fdeclspec -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wdivision-by-zero -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wshorten-64-to-32 -Wwrite-strings -Wold-style-definition -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wunused-variable -Wextra-tokens -Wundef -fno-common -pipe  conftest.c  -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib -L. -L/Users/stephanelorio/.rbenv/versions/3.1.2/lib  -fstack-protector-strong -L/opt/homebrew/Cellar/sqlite/3.39.2/lib    -lpthread  -lsqlite3 -lruby.3.1 -lsqlite3 -lpthread  -lsqlite3  "
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+ld: warning: ignoring file /opt/homebrew/Cellar/sqlite/3.39.2/lib/libsqlite3.dylib, building for macOS-x86_64 but attempting to link with file built for macOS-arm64
+Undefined symbols for architecture x86_64:
+  "_sqlite3_libversion_number", referenced from:
+      _t in conftest-d6157a.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: extern void sqlite3_libversion_number();
+15: int t(void) { sqlite3_libversion_number(); return 0; }
+/* end */
+
+--------------------
+

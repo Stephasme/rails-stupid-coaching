@@ -1,0 +1,17 @@
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+/Users/stephanelorio/.rbenv/versions/3.1.2/bin/ruby -I /Users/stephanelorio/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220815-46554-v7wo7g sitelibdir\=./.gem.20220815-46554-v7wo7g clean
+
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220815-46554-v7wo7g sitelibdir\=./.gem.20220815-46554-v7wo7g
+compiling bootsnap.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220815-46554-v7wo7g sitelibdir\=./.gem.20220815-46554-v7wo7g install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220815-46554-v7wo7g/bootsnap

@@ -1,0 +1,54 @@
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/msgpack-1.5.4/ext/msgpack
+/Users/stephanelorio/.rbenv/versions/3.1.2/bin/ruby -I /Users/stephanelorio/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+checking for ruby/st.h... yes
+checking for st.h... no
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... no
+creating Makefile
+
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/msgpack-1.5.4/ext/msgpack
+make DESTDIR\= sitearchdir\=./.gem.20220815-46554-frbyz3 sitelibdir\=./.gem.20220815-46554-frbyz3 clean
+
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/msgpack-1.5.4/ext/msgpack
+make DESTDIR\= sitearchdir\=./.gem.20220815-46554-frbyz3 sitelibdir\=./.gem.20220815-46554-frbyz3
+compiling buffer.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling buffer_class.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling extension_value_class.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling factory_class.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling packer.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling packer_class.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling packer_ext_registry.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling rbinit.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling rmem.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling unpacker.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling unpacker_class.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+compiling unpacker_ext_registry.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object msgpack/msgpack.bundle
+
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/msgpack-1.5.4/ext/msgpack
+make DESTDIR\= sitearchdir\=./.gem.20220815-46554-frbyz3 sitelibdir\=./.gem.20220815-46554-frbyz3 install
+/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20220815-46554-frbyz3/msgpack

@@ -1,0 +1,18 @@
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+/Users/stephanelorio/.rbenv/versions/3.1.2/bin/ruby -I /Users/stephanelorio/.rbenv/versions/3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+creating Makefile
+
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20220815-46554-x32ujn sitelibdir\=./.gem.20220815-46554-x32ujn clean
+
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20220815-46554-x32ujn sitelibdir\=./.gem.20220815-46554-x32ujn
+compiling strscan.c
+warning: unknown warning option '-Wno-cast-function-type'; did you mean '-Wno-bad-function-cast'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object strscan.bundle
+
+current directory: /Users/stephanelorio/code/Stephasme/rails-stupid-coaching/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20220815-46554-x32ujn sitelibdir\=./.gem.20220815-46554-x32ujn install
+/usr/bin/install -c -m 0755 strscan.bundle ./.gem.20220815-46554-x32ujn
